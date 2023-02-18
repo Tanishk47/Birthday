@@ -65,6 +65,19 @@ padding-bottom: 0.5em;
   width: 20%;
 }
 
+.Insight-note{
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.credits{
+  text-align: center;
+}
+
+.list{
+  text-align: left;
+}
+
 .last-image{
   width: auto;
 }
@@ -100,10 +113,6 @@ a{
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
-}
-
-a:hover{
-  color: #EAF6F6;
 }
 
 .copyright{
@@ -159,32 +168,32 @@ hr{
 }
 
 .btn {
-  background: #11cdd4;
-  background-image: -webkit-linear-gradient(top, #11cdd4, #11999b);
-  background-image: -moz-linear-gradient(top, #11cdd4, #11999b);
-  background-image: -ms-linear-gradient(top, #11cdd4, #11999b);
-  background-image: -o-linear-gradient(top, #11cdd4, #11999b);
-  background-image: linear-gradient(to bottom, #11cdd4, #11999b);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 15px;
+  background: #d7dee0;
+  background-image: -webkit-linear-gradient(top, #d7dee0, #d7dee0);
+  background-image: -moz-linear-gradient(top, #d7dee0, #d7dee0);
+  background-image: -ms-linear-gradient(top, #d7dee0, #d7dee0);
+  background-image: -o-linear-gradient(top, #d7dee0, #d7dee0);
+  background-image: linear-gradient(to bottom, #d7dee0, #d7dee0);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Georgia;
+  color: #9767b5;
+  font-size: 20px;
   padding: 10px 20px 10px 20px;
+  border: solid #fafafa 0px;
   text-decoration: none;
 }
 
 .btn:hover {
-  background: #30e3cb;
-  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  background: #aebdc4;
+  background-image: -webkit-linear-gradient(top, #aebdc4, #aebdc4);
+  background-image: -moz-linear-gradient(top, #aebdc4, #aebdc4);
+  background-image: -ms-linear-gradient(top, #aebdc4, #aebdc4);
+  background-image: -o-linear-gradient(top, #aebdc4, #aebdc4);
+  background-image: linear-gradient(to bottom, #aebdc4, #aebdc4);
   text-decoration: none;
 }
-
 
 @media (max-width: 990px) {
   h1{
@@ -209,6 +218,15 @@ hr{
 
   .skills h3{
     font-size: 1.5rem;
+  }
+
+  .credits h2{
+    font-size: 2rem;
+  }
+
+  .credits h3 {
+    font-size: 1.2rem;
+    color: #400E32;
   }
 
   .top-container{
@@ -288,31 +306,39 @@ hr{
     display: none;
   }
 
- a .footer-link{
-  font-size: 1.5rem;
- }
   .copyright{
     padding: 10px 0 0 0;
     font-size: 0.5rem;
   }
 
-  .btn {
-    background: #11cdd4;
-    background-image: -webkit-linear-gradient(top, #11cdd4, #11999b);
-    background-image: -moz-linear-gradient(top, #11cdd4, #11999b);
-    background-image: -ms-linear-gradient(top, #11cdd4, #11999b);
-    background-image: -o-linear-gradient(top, #11cdd4, #11999b);
-    background-image: linear-gradient(to bottom, #11cdd4, #11999b);
-    -webkit-border-radius: 8;
-    -moz-border-radius: 8;
-    border-radius: 6px;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 10px;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-  }
+}
 
+.btn {
+  background: #d7dee0;
+  background-image: -webkit-linear-gradient(top, #d7dee0, #d7dee0);
+  background-image: -moz-linear-gradient(top, #d7dee0, #d7dee0);
+  background-image: -ms-linear-gradient(top, #d7dee0, #d7dee0);
+  background-image: -o-linear-gradient(top, #d7dee0, #d7dee0);
+  background-image: linear-gradient(to bottom, #d7dee0, #d7dee0);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 5px;
+  font-family: Georgia;
+  color: #9767b5;
+  font-size: 15px;
+  padding: 5px 10px 5px 10px;
+  border: solid #fafafa 0px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #aebdc4;
+  background-image: -webkit-linear-gradient(top, #aebdc4, #aebdc4);
+  background-image: -moz-linear-gradient(top, #aebdc4, #aebdc4);
+  background-image: -ms-linear-gradient(top, #aebdc4, #aebdc4);
+  background-image: -o-linear-gradient(top, #aebdc4, #aebdc4);
+  background-image: linear-gradient(to bottom, #aebdc4, #aebdc4);
+  text-decoration: none;
 }
 
 .balloon {
